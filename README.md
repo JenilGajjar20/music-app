@@ -6,26 +6,26 @@ A simple music web application created using Vue.js with Tailwind CSS. You can p
 
 ### For Vue.js
 
+- The CLI **(@vue/cli)** is a globally installed npm package and provides the vue command in your terminal.
+
 ```
 npm install -g @vue/cli
 ```
 
-- The CLI **(@vue/cli)** is a globally installed npm package and provides the vue command in your terminal.
+- To create a new Project
 
 ```
 vue create music-app
 ```
 
-- To create a new Project
-
 ### For Tailwind CSS
+
+- Install **Tailwind CSS** and its peer dependencies and then run the **_init_** command to generate two files **tailwind.config.js** and **postcss.config.js**.
 
 ```
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
-
-- Install **Tailwind CSS** and its peer dependencies and then run the **_init_** command to generate two files **tailwind.config.js** and **postcss.config.js**.
 
 - Now add the path to the tailwind config file as shown below:
 
