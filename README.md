@@ -2,6 +2,10 @@
 
 A simple music web application created using Vue.js with Tailwind CSS. You can play and pause the song and go to the next and previous song or click on the song to play.
 
+Made for lovely playlists and to enjoy your favourite songs. 
+
+If you like this project please feel free to star it.
+
 ## Project Setup
 
 ### For Vue.js
