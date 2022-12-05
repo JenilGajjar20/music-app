@@ -1,17 +1,7 @@
 <template>
-  <div
-    class="
-      bg-green-500
-      h-20
-      flex
-      items-center
-      justify-around
-      text-white
-      font-bold
-    "
-  >
-    <h2 class="text-2xl font-mono">Music App</h2>
-    <div class="space-x-3 text-2xl">
+  <div class="header">
+    <h2 class="header-title">Music App</h2>
+    <div class="header-icons">
       <a
         v-for="(link, index) in links"
         :key="index"
