@@ -2,68 +2,12 @@
   <section class="bg-green-300 flex flex-col items-center py-6">
     <SongTitle :title="current.title" :movie="current.movie" />
     <div class="space-x-10 text-white sm:text-xl">
-      <button
-        @click="prevSong"
-        class="
-          bg-orange-600
-          font-medium
-          py-1
-          px-3
-          rounded
-          transition-all
-          duration-200
-          hover:scale-110
-        "
-      >
-        Prev
-      </button>
-      <button
-        v-if="!isPlaying"
-        @click="play"
-        class="
-          bg-green-600
-          font-medium
-          py-1
-          px-3
-          rounded
-          transition-all
-          duration-200
-          hover:scale-110
-        "
-      >
+      <button @click="prevSong" class="bg-orange-600 btn">Prev</button>
+      <button v-if="!isPlaying" @click="play" class="bg-green-600 btn">
         Play
       </button>
-      <button
-        v-else
-        @click="pause"
-        class="
-          bg-red-800
-          font-medium
-          py-1
-          px-3
-          rounded
-          transition-all
-          duration-200
-          hover:scale-110
-        "
-      >
-        Pause
-      </button>
-      <button
-        @click="nextSong"
-        class="
-          bg-orange-600
-          font-medium
-          py-1
-          px-3
-          rounded
-          transition-all
-          duration-200
-          hover:scale-110
-        "
-      >
-        Next
-      </button>
+      <button v-else @click="pause" class="bg-red-800 btn">Pause</button>
+      <button @click="nextSong" class="bg-orange-600 btn">Next</button>
     </div>
     <div class="flex flex-col justify-center items-center gap-4 py-8">
       <h3 class="py-5 font-bold text-blue-700 text-xl sm:text-2xl lg:text-4xl">
@@ -106,3 +50,9 @@ export default {
   components: { SongTitle },
 };
 </script>
+
+<style>
+.btn {
+  @apply font-medium py-1 px-3 rounded transition-all duration-200 hover:scale-110;
+}
+</style>
