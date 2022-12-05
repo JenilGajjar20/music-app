@@ -1,0 +1,53 @@
+.header {
+  @apply bg-green-500 h-20 flex items-center justify-around text-white font-bold;
+  &-title {
+    @apply text-2xl font-mono;
+  }
+  &-icons {
+    @apply space-x-3 text-2xl;
+  }
+}
+
+.footer {
+  @apply bg-green-700 p-10;
+  &-content {
+    @apply text-white md:text-xl;
+  }
+}
+
+.title {
+  @apply text-center font-bold py-8 text-xl sm:text-2xl lg:text-4xl text-blue-700;
+  span {
+    @apply text-blue-900;
+  }
+}
+
+.music-player {
+  @apply bg-green-300 flex flex-col items-center py-6;
+  &__btns {
+    @apply space-x-10 text-white sm:text-xl;
+    .btn {
+      @apply font-medium py-1 px-3 rounded transition-all duration-200 hover:scale-110;
+    }
+  }
+}
+
+.songs-list {
+  @apply flex flex-col justify-center items-center gap-4 py-8;
+  &__title {
+    @apply py-5 font-bold text-blue-700 text-xl sm:text-2xl lg:text-4xl;
+  }
+}
+
+.songs {
+  @apply grid grid-cols-1 gap-2 sm:px-4 sm:grid-cols-2 sm:gap-5 sm:text-lg md:grid-cols-3 xl:grid-cols-4;
+  .current-song {
+    @apply bg-green-800 text-white font-medium rounded-md;
+  }
+  .other-song {
+    @apply text-gray-700 font-medium;
+  }
+  &-btn {
+    @apply py-2 px-6 hover:bg-green-500 hover:rounded-md;
+  }
+}
