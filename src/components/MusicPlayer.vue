@@ -2,12 +2,10 @@
   <section class="music-player">
     <SongTitle :title="current.title" :movie="current.movie" />
     <div class="music-player__btns">
-      <button @click="prevSong" class="bg-orange-600 btn">Prev</button>
-      <button v-if="!isPlaying" @click="play" class="bg-green-600 btn">
-        Play
-      </button>
-      <button v-else @click="pause" class="bg-red-800 btn">Pause</button>
-      <button @click="nextSong" class="bg-orange-600 btn">Next</button>
+      <ButtonPrimary @click.native="prevSong" title="Prev" />
+      <ButtonSecondary v-if="!isPlaying" @click.native="play" title="Play" />
+      <ButtonAccent v-else @click.native="pause" title="Pause" />
+      <ButtonPrimary @click.native="nextSong" title="Next" />
     </div>
     <div class="songs-list">
       <h3 class="songs-list__title">Songs List</h3>
