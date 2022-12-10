@@ -20,7 +20,7 @@ module.exports = {
         secondary: {},
       },
       fontFamily: {
-        display: ["Roboto", ...defaultTheme.fontFamily.sans],
+        display: ["Poppins", ...defaultTheme.fontFamily.sans],
       },
     },
   },
