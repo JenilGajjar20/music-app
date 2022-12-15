@@ -1,3 +1,20 @@
+import Sweetheart from "../assets/music/SweetheartKedarnath.mp3";
+import Qaafirana from "../assets/music/QaafiranaKedarnath.mp3";
+import Volt from "../assets/music/440 VOLT.mp3";
+import Shayarana from "../assets/music/Aaj Dil Shayarana.mp3";
+import Banjaara from "../assets/music/Banjaara.mp3";
+import ChaloJaaneDo from "../assets/music/chalo jaane do.mp3";
+import CharacterDheela from "../assets/music/Character Dheela.mp3";
+import DilChahtaHa from "../assets/music/Dil Chahta Hai.mp3";
+import Ghungroo from "../assets/music/GhungrooWar.mp3";
+import KalHoNaaHo from "../assets/music/Kal Ho Naa Ho.mp3";
+import JaiJaiShivshankar from "../assets/music/Jai-Jai-ShivshankarWar.mp3";
+import koiLadkiHai from "../assets/music/koi ladki hai.mp3";
+import MereNaamTu from "../assets/music/Mere Naam Tu.mp3";
+import NamoNamo from "../assets/music/Namo-NamoKedarnath.mp3";
+import TujheDekhaTo from "../assets/music/tujhe dekha to.mp3";
+import TuHiTohHai from "../assets/music/Tu Hi Toh Hai.mp3";
+
 export default {
   data() {
     return {
@@ -12,7 +29,7 @@ export default {
           music: "Amit Trivedi",
           lyrics: "Amitabh Bhattacharya",
           year: 2018,
-          src: require("../assets/music/SweetheartKedarnath.mp3"),
+          src: Sweetheart,
         },
         {
           title: "Qaafirana",
@@ -21,7 +38,7 @@ export default {
           music: "Amit Trivedi",
           lyrics: "Amitabh Bhattacharya",
           year: 2018,
-          src: require("../assets/music/QaafiranaKedarnath.mp3"),
+          src: Qaafirana,
         },
         {
           title: "440 Volt",
@@ -30,7 +47,7 @@ export default {
           music: "Vishal & Shekhar",
           lyrics: "Irshad Kamil",
           year: 2016,
-          src: require("../assets/music/440 VOLT.mp3"),
+          src: Volt,
         },
         {
           title: "Aaj Dil Shayarana",
@@ -39,7 +56,7 @@ export default {
           music: "Pritam",
           lyrics: "Irshad Kamil",
           year: 2014,
-          src: require("../assets/music/Aaj Dil Shayarana.mp3"),
+          src: Shayarana,
         },
         {
           title: "Banjaara",
@@ -48,7 +65,7 @@ export default {
           music: "Sohail Sen",
           lyrics: "Neelesh Misra",
           year: 2012,
-          src: require("../assets/music/Banjaara.mp3"),
+          src: Banjaara,
         },
         {
           title: "Chalo Jaane Do",
@@ -57,7 +74,7 @@ export default {
           music: "Vishal Dadlani, Shekhar Ravjiani",
           lyrics: "Javed Akhtar",
           year: 2008,
-          src: require("../assets/music/chalo jaane do.mp3"),
+          src: ChaloJaaneDo,
         },
         {
           title: "Character Dheela",
@@ -66,7 +83,7 @@ export default {
           music: "Pritam",
           lyrics: "Amitabh Bhattacharya",
           year: 2011,
-          src: require("../assets/music/Character Dheela.mp3"),
+          src: CharacterDheela,
         },
         {
           title: "Dil Chahta Ha",
@@ -75,7 +92,7 @@ export default {
           music: "Shanker, Ehsaan, Loy",
           lyrics: "Javed Akhtar",
           year: 2001,
-          src: require("../assets/music/Dil Chahta Hai.mp3"),
+          src: DilChahtaHa,
         },
         {
           title: "Ghungroo",
@@ -84,7 +101,7 @@ export default {
           music: "Vishal and Shekhar",
           lyrics: "Kumaar",
           year: 2019,
-          src: require("../assets/music/GhungrooWar.mp3"),
+          src: Ghungroo,
         },
         {
           title: "Kal Ho Naa Ho",
@@ -94,7 +111,7 @@ export default {
           lyrics: "Javed Akhtar",
           year: 2003,
           // image: "kal-ho-na-ho.png",
-          src: require("../assets/music/Kal Ho Naa Ho.mp3"),
+          src: KalHoNaaHo,
         },
         {
           title: "Jai-Jai-Shivshankar",
@@ -103,7 +120,7 @@ export default {
           music: "Vishal and Shekhar",
           lyrics: "Kumaar",
           year: 2019,
-          src: require("../assets/music/Jai-Jai-ShivshankarWar.mp3"),
+          src: JaiJaiShivshankar,
         },
         {
           title: "koi ladki hai",
@@ -112,7 +129,7 @@ export default {
           music: "Uttam Singh",
           lyrics: "Anand Bakshi",
           year: 1997,
-          src: require("../assets/music/koi ladki hai.mp3"),
+          src: koiLadkiHai,
         },
         {
           title: "Mere Naam Tu",
@@ -121,7 +138,7 @@ export default {
           music: "Ajay-Atul",
           lyrics: "Irshad Kamil",
           year: 2018,
-          src: require("../assets/music/Mere Naam Tu.mp3"),
+          src: MereNaamTu,
         },
         {
           title: "Namo Namo",
@@ -130,7 +147,7 @@ export default {
           music: "Amit Trivedi",
           lyrics: "Amitabh Bhattacharya",
           year: 2018,
-          src: require("../assets/music/Namo-NamoKedarnath.mp3"),
+          src: NamoNamo,
         },
         {
           title: "Tujhe Dekha To",
@@ -139,7 +156,7 @@ export default {
           music: "Jatin-Lalit",
           lyrics: "Anand Bakshi",
           year: 1995,
-          src: require("../assets/music/tujhe dekha to.mp3"),
+          src: TujheDekhaTo,
         },
         {
           title: "Tu Hi Toh Hai",
@@ -148,7 +165,7 @@ export default {
           music: "Pritam",
           lyrics: "Irshad Kamil",
           year: 2014,
-          src: require("../assets/music/Tu Hi Toh Hai.mp3"),
+          src: TuHiTohHai,
         },
       ],
       player: new Audio(),

@@ -1,4 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+const vayu = require("tailwindcss/vayu");
 
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
@@ -24,5 +25,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [vayu()],
 };

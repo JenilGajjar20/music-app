@@ -10,6 +10,7 @@
       :year="current.year"
     />
     <div class="music-player__btns">
+      <VyButton label="Label" />
       <ButtonPrimary @click.native="prevSong" title="Prev" />
       <ButtonSecondary v-if="!isPlaying" @click.native="play" title="Play" />
       <ButtonAccent v-else @click.native="pause" title="Pause" />

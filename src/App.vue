@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import Header from "./components/Header.vue";
-import MusicPlayer from "./components/MusicPlayer.vue";
+import Header from "@/components/Header";
+import MusicPlayer from "@/components/MusicPlayer";
 // import Footer from "./components/Footer.vue";
 
 export default {
