@@ -1,6 +1,14 @@
 <template>
   <section class="music-player">
-    <SongTitle :title="current.title" :movie="current.movie" />
+    <SongTitle
+      :title="current.title"
+      :movie="current.movie"
+      :singer="current.singer"
+      :image="current.image"
+      :music="current.music"
+      :lyrics="current.lyrics"
+      :year="current.year"
+    />
     <div class="music-player__btns">
       <ButtonPrimary @click.native="prevSong" title="Prev" />
       <ButtonSecondary v-if="!isPlaying" @click.native="play" title="Play" />
