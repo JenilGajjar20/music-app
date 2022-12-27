@@ -1,5 +1,5 @@
 <template>
-  <button class="bg-orange-600 btn">{{ title }}</button>
+  <button class="bg-primary-700 btn">{{ title }}</button>
 </template>
 
 <script>
