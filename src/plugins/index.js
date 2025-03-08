@@ -1,4 +1,4 @@
 import Vue from "vue";
-import VayuVue from "Vayu-Vue";
+import VayuVue from "vayu-vue";
 
 Vue.use(VayuVue);
