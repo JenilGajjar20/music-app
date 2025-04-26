@@ -18,7 +18,7 @@
       </p>
     </div>
     <div class="song-img">
-      <img v-if="image" :src="`../assets/images/${image}.png`" alt="" />
+      <img v-if="image" :src="`../${image}.png`" alt="" />
       <img v-else src="../assets/images/no-image.png" alt="" />
     </div>
   </div>

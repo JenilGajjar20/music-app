@@ -110,7 +110,7 @@ export default {
           music: "Shankar Ehsaan Loy",
           lyrics: "Javed Akhtar",
           year: 2003,
-          // image: "kal-ho-na-ho.png",
+          image: "kal-ho-na-ho",
           src: KalHoNaaHo,
         },
         {
